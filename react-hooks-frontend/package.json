@@ -1,0 +1,44 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Postgres Enterprise Manager",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5433,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected Postgres Enterprise Manager installation with the data directory at C:\\Program Files\\PostgreSQL\\13\\data"
+        },
+        "2": {
+            "Name": "PostgreSQL 15",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5432,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected PostgreSQL 15 installation with the data directory at C:\\Program Files\\PostgreSQL\\15\\data"
+        },
+        "3": {
+            "Name": "PostgreSQL 9.6",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5455,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected PostgreSQL 9.6 installation with the data directory at C:\\Program Files\\PostgreSQL\\9.6\\data"
+        },
+        "4": {
+            "Name": "PostgreSQL 11",
+            "Group": "Servers",
+            "Host": "localhost",
+            "Port": 5434,
+            "MaintenanceDB": "postgres",
+            "Username": "postgres",
+            "SSLMode": "prefer",
+            "Comment": "Auto-detected PostgreSQL 11 installation with the data directory at C:\\Program Files\\PostgreSQL\\11\\data"
+        }
+    }
+}
