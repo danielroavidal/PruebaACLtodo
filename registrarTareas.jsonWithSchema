@@ -1,0 +1,114 @@
+{
+  "schema": {
+    "Id": {
+      "type": "number",
+      "constraints": {
+        "type": "number",
+        "presence": {
+          "allowEmpty": false
+        },
+        "numericality": {
+          "greaterThanOrEqualTo": 1,
+          "lessThanOrEqualTo": 999
+        }
+      },
+      "name": "Id",
+      "visible": true,
+      "width": 80
+    },
+    "Nombre de Tarea": {
+      "type": "string",
+      "constraints": {
+        "type": "string",
+        "length": {
+          "maximum": 30
+        },
+        "presence": {
+          "allowEmpty": false
+        }
+      },
+      "name": "Nombre de Tarea",
+      "disabled": false,
+      "order": 0,
+      "visible": true,
+      "width": 200
+    },
+    "Descripcion": {
+      "type": "string",
+      "constraints": {
+        "type": "string",
+        "length": {
+          "maximum": 100
+        },
+        "presence": {
+          "allowEmpty": false
+        }
+      },
+      "name": "Descripcion",
+      "disabled": false,
+      "order": 1,
+      "visible": true,
+      "width": 200
+    },
+    "fechaCreacion": {
+      "type": "datetime",
+      "constraints": {
+        "type": "string",
+        "length": {},
+        "presence": {
+          "allowEmpty": false
+        },
+        "datetime": {
+          "latest": "",
+          "earliest": "2023-07-26T16:00:00.000Z"
+        }
+      },
+      "name": "fechaCreacion",
+      "ignoreTimezones": null,
+      "order": 2,
+      "visible": true,
+      "width": 140
+    },
+    "Vigente": {
+      "type": "boolean",
+      "constraints": {
+        "type": "boolean",
+        "presence": {
+          "allowEmpty": false
+        }
+      },
+      "name": "Vigente",
+      "order": 3,
+      "visible": true,
+      "width": 86
+    }
+  },
+  "rows": [
+    {
+      "_id": "ro_ta_1cbe1fa9e12640f9a62a8cf5199e22e7_2a5c1f688fc2467daa72f6472a8d5e8f",
+      "_rev": "1-9f3089ff41a46f795553f7c706fc45b7",
+      "Id": 1,
+      "Nombre de Tarea": "captura requerimientos",
+      "Descripcion": "Reunion clientes Coopeuch, toma requerimientos aprobados",
+      "fechaCreacion": "2023-07-26T16:00:00.000Z",
+      "Vigente": true,
+      "tableId": "ta_1cbe1fa9e12640f9a62a8cf5199e22e7",
+      "type": "row",
+      "createdAt": "2023-07-26T12:22:58.552Z",
+      "updatedAt": "2023-07-26T12:22:58.552Z"
+    },
+    {
+      "_id": "ro_ta_1cbe1fa9e12640f9a62a8cf5199e22e7_f3f54d7e6a324b1080865288c0f524e8",
+      "_rev": "1-46cdf19f0f26cd889ff7227f9cccc5dc",
+      "Id": 2,
+      "Nombre de Tarea": "Diseño de Software",
+      "Descripcion": "Para diseñar un sistema de softwares se necesita trabajar en UML",
+      "fechaCreacion": "2023-07-28T16:00:00.000Z",
+      "Vigente": true,
+      "tableId": "ta_1cbe1fa9e12640f9a62a8cf5199e22e7",
+      "type": "row",
+      "createdAt": "2023-07-28T06:39:11.743Z",
+      "updatedAt": "2023-07-28T06:39:11.743Z"
+    }
+  ]
+}
